@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/.vscode
+
+# web-site dependencies
+/web-site/node_modules
+/web-site/.pnp
+/web-site/.pnp.js
+
+# web-site testing
+/web-site/coverage
+
+# web-site production
+/web-site/build
+
+# web-site misc
+/web-site/.DS_Store
+/web-site/.env.local
+/web-site/.env.development.local
+/web-site/.env.test.local
+/web-site/.env.production.local
+
+/web-site/npm-debug.log*
+/web-site/yarn-debug.log*
+/web-site/yarn-error.log*
+
+# mathtutio-lambda-functions target
+/lambda-functions/app-lambda-functions-java/target
+/lambda-functions/app-lambda-functions-java/.settings
+/lambda-functions/app-lambda-functions-java/.project
+/lambda-functions/app-lambda-functions-java/.classpath
